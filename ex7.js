@@ -1,0 +1,12 @@
+var prompt = require('prompt-sync')();
+let A = prompt("Entrez 1er nombre : ");
+let premier = A * 2;
+console.log("1er nombre : " + premier);
+let B = prompt("Entrez 2eme nombre : ");
+let deuxieme = B * 3;
+console.log("2eme nombre : " + deuxieme);
+let C = prompt ("Entrez 3eme nombre : ");
+let troisieme = C * 5;
+console.log("3eme nombre " + troisieme);
+let moyenne = (premier + deuxieme + troisieme)/(2+3+5);
+console.log("La moyenne pondérée est " + moyenne);
