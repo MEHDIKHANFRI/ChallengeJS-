@@ -4,4 +4,4 @@ let factorielle = 1;
 for(let i = 1 ;i<=n ; i++){
     factorielle = factorielle * i;
 }
-console.log(n+ " = " + factorielle);
+console.log(n + " = " + factorielle);

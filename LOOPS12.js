@@ -1,11 +1,16 @@
 var prompt = require('prompt-sync')();
+
+
 let nombre = Number(prompt("Entrez un nombre "));
+let l= "" ;
+
 for(let i=1 ; i<=nombre ; i++){
-    for(let j=1;j<i;j++){
-        console.log("*");
+    l="";
+    for(let j=1 ; j<= nombre - i ;j++){
+        l += " ";
     }
-    for(let j=1;j<=2*i-1;j++){
-        console.log(" ");
+    for(let j=1;j<=i*2-1;j++){
+        l += "*";
     }
-    console.log("\n");
+    console.log(l);
 }
