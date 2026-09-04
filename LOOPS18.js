@@ -8,7 +8,7 @@ let nombre = Number(prompt("Entrez un nombre entiee "));
     //let dibut2 = 0;
 
 function dichotomique(t, dibut , fin , n){
-    while(dibut < fin){
+    while(dibut <= fin){
     let milieu = Math.floor((dibut + fin)/2);
     
     if(n == tableau[milieu] ){
