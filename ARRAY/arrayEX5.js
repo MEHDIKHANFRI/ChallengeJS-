@@ -15,4 +15,4 @@ for(let i = 0 ; i < nombre2.length ; i++ ){
     min = nombre2[i+1];
  }
 }
-console.log(min);
+console.log("Nombe le plus petit est " + min);

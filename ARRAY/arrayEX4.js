@@ -7,12 +7,12 @@ for(let i = 0 ; i < nombre ; i++ ){
  
 }
 
-let min = nombre2[0];
+let max = nombre2[0];
 
 for(let i = 0 ; i < nombre2.length ; i++ ){
   
- if(min < nombre2[i+1]){
-    min = nombre2[i+1];
+ if(max < nombre2[i+1]){
+    max = nombre2[i+1];
  }
 }
-console.log(min);
+console.log("Nombre le plus grand est " + max);
